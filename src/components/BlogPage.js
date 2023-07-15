@@ -1,18 +1,18 @@
 import React from 'react'
 import profileImage from "../Images/sibainu.jpg";
+import { Helmet } from 'react-helmet';
 
 const BlogPage = () => {
   return (
     <>
-    {/* <head>
+    <Helmet>
       <title>ブログページ</title>
       <meta
-      name="description"
-      content="Blog Page : Web site created using create-react-app"
+        name="description"
+        content="Blog Page : Web site created using create-react-app"
       />
-    </head> */}
+    </Helmet>
     <div className='container'>
-      <title>ブログページ</title>
       <h1>ブログ</h1>
       <img src={profileImage} className="profileImage" alt='' />
       <p>
