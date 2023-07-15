@@ -9,7 +9,7 @@ const HomePage = () => {
     <div className="container text-center">
     <h1>Shino Code</h1>
 
-    <img src={profileImage} className="profileImage" />
+    <img src={profileImage} className="profileImage" alt='' />
 
     <p>
       ShinoCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
@@ -70,17 +70,17 @@ const HomePage = () => {
         <h1 class="title">スキル</h1>
         <div class="row text-center">
           <div class="col-md-4 services">
-            <img src={reactImage} />
+            <img src={reactImage} alt='' />
             <h4>React</h4>
             <p>Reactがつかえます</p>
           </div>
           <div class="col-md-4 services">
-            <img src={jsImage} />
+            <img src={jsImage} alt=''/>
             <h4>HTML/CSS</h4>
             <p>HTML/CSSがつかえます</p>
           </div>
           <div class="col-md-4 services">
-            <img src={firebaseImage} />
+            <img src={firebaseImage} alt=''/>
             <h4>Firebase</h4>
             <p>Firebaseがつかえます</p>
           </div>
