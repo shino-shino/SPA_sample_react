@@ -1,3 +1,7 @@
+# 内容
+react で作成したSPA(single page application)です．
+ページ遷移に対応しています．
+
 # 制作中 Coming soon..
 ------------------------------------------------
 # Getting Started with Create React App
